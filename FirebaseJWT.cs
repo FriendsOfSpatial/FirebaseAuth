@@ -15,7 +15,7 @@ namespace SpawnerWorker.SpawnerLogic
     {
         static readonly DateTime epoch = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
         
-        const string ProjectId = "roguefleetonline";
+        const string ProjectId = "insert your firebase project id here";
         const string URL = "https://www.googleapis.com/robot/v1/metadata/x509/securetoken@system.gserviceaccount.com";
 
         static Dictionary<string, RSACryptoServiceProvider> cryptoServiceProviders;
