@@ -1,1 +1,1 @@
-# FirebaseAuth
+# Firebase Authentication for Unity & JWT Verification
