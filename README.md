@@ -8,6 +8,6 @@
 ## Typical Auth Flow
 1. The client send a sign in/up request to firebase auth servers.
 2. If sign in/up is successful an ID token is return to the client.
-3. After connecting to SpatialOS, the ID token is sent to an entity via command for verification.
+3. After connecting to SpatialOS, the ID token is sent via command for verification.
 4. If ID token verification is successful the player avatar data is retreived from database using the user ID from the token payload.
 5. Avatar is spawned and play can resume.
