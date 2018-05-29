@@ -5,8 +5,6 @@
 
 [Verify ID tokens using a third-party JWT library](https://firebase.google.com/docs/auth/admin/verify-id-tokens#verify_id_tokens_using_a_third_party_jwt_library)
 
-# Firebase Authentication for Unity & JWT Verification
-
 ## Typical Auth Flow
 1. The client send a sign in/up request to firebase auth servers.
 2. If sign in/up is successful an ID token is return to the client.
